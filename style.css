@@ -1,0 +1,42 @@
+.images{
+    /* border: solid black; */
+    justify-content: center;
+    display: flex;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 25%;
+    
+
+}
+img{
+    max-width: 70%;
+    max-height: 70%;
+    justify-content: center;
+    display: flex;
+}
+#harvard-link{
+    /* border: solid black; */
+    height: auto;
+    width: 70vh;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+.AdTxt{
+    /* border: solid black; */
+    justify-content: right;
+    margin-top: 5px;
+    
+
+}
+.NavBar{
+    /* border: solid black; */
+    display:flex;
+    padding:15px;
+    justify-content:space-between;
+    font-size: 20px; /* Set the font size */
+    font-family: Neutral Regular 3;
+    color: #1b1a1a; /* Set the font color */
+    font-weight: lighter; /* Set the font weight to lighter */
+    font-stretch: condensed;
+    
+}

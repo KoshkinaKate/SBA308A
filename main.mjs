@@ -4,3 +4,6 @@ import { getDate } from "./data.mjs";
 getPhotos();
 getDate ();
 
+// ----------
+
+
