@@ -1,25 +1,34 @@
 .images{
     /* border: solid black; */
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
-    max-width: 50%;
-    max-height: 50%;
-    margin-left: 25%;
+    margin-top: 10px;
+    max-width: 70%; 
+    max-height: 70%;
+    margin-left: 20%;
     
 
 }
-img{
+.image1 img, .image2 img{
+    width: 70%;
+    height: auto; 
+}
+/* img{
     max-width: 70%;
     max-height: 70%;
     justify-content: center;
     display: flex;
-}
+} */
 #harvard-link{
     /* border: solid black; */
     height: auto;
     width: 70vh;
     /* padding: 0; */
     /* margin: 0; */
+}
+.logo img{
+    /* border: solid pink; */
+    width:50%;
 }
 .AdTxt{
     /* border: solid black; */
@@ -33,10 +42,20 @@ img{
     display:flex;
     padding:15px;
     justify-content:space-between;
-    font-size: 20px; /* Set the font size */
+    font-size: 20px; 
     font-family: Neutral Regular 3;
-    color: #1b1a1a; /* Set the font color */
-    font-weight: lighter; /* Set the font weight to lighter */
+    color: #1b1a1a; 
+    /* font-weight: lighter;  */
     font-stretch: condensed;
+    text-underline-offset: black;
+    /* border-bottom: black; */
     
+    
+}
+.date{
+    /* border: solid black; */
+
+}
+h1{
+    font-size: 20px;
 }
