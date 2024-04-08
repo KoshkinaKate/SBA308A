@@ -9,5 +9,12 @@ import { getPhoto2 } from "./helper.mjs";
 
 
 getPhotos();
-getDate ();
+// getDate ();
 getPhoto2();
+
+const btn = document.getElementById('showDateButton');
+console.log(btn);
+
+btn.addEventListener('click', (event)=>{
+    const data = getDate()
+})
